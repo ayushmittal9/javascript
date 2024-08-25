@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.profile p,
+.skills ul,
+.experience .job,
+.education p {
+    margin: 10px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience .job h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.experience .job p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.experience .job ul {
+    list-style: disc;
+    margin-left: 20px;
+}
